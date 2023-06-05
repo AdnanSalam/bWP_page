@@ -1,0 +1,67 @@
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    
+    background: #DEF1FE;
+    width: 1550px;
+    left: 0px;
+    top: 0px;
+
+}
+
+/*Header Topbar*/
+
+.header_topbar {
+    display: flex;
+}
+
+/*Body Topbar*/
+
+.body_topbar {
+    display: flex;
+}
+
+/*First Row*/
+
+.firstrow {
+    display: flex;
+}
+
+
+/*Second Row*/
+
+.second_row {
+    display: flex;
+}
+
+/*Third Row*/
+
+.third_row {
+    display: flex;
+}
+
+/*Page Number*/
+
+.page_no {
+    display: flex;
+}
+
+/* Footer */
+.signup_col {
+    display: flex;
+}
+
+.footer {
+    background: #8e9fb2;
+    
+}
+
+.footer_col {
+    display: flex;
+}
+
+.footer_bottom {
+    background: #DEF1FE;
+}
