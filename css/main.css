@@ -2,22 +2,160 @@ html {
     font-size: 62.5%;
 }
 
-.header {
-    
-    background: #DEF1FE;
-    width: 1550px;
-    left: 0px;
-    top: 0px;
-
+body {
+    margin: 0;
+    font-family: 'Epilogue';
 }
 
-/*Header Topbar*/
+.wrapper {
+     /*max-width: 1400px;*/
+     margin: 0 auto;
+}
+
+.header {
+    background: #DEF1FE;
+    align-items: center;
+    height: 629px; 
+}
+
+/*Header Topbar/Nav*/
 
 .header_topbar {
     display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 4.1em;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.signin {
+    border-radius: 100px;
+    background: white;
+    align-items: center;
+    gap: 8px;
+    width: 126px;
+    height: 45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 140%;
+    border: 3px solid #191A1C;
+    
+    box-shadow: -6px 8px;
+}
+
+h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #191A1C;
+}
+
+.search_box1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    gap: 155px;
+    position: absolute;
+    width: 475px;
+    height: 65.33px;
+    left: 483px;
+    top: 414px;
+    background: #FFFFFF;
+    border: 2px solid #191A1C;
+    box-shadow: 4px 4px 0px #191A1C;
+}
+
+.search_box1_table {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.search {
+    border: none;
+    width: 89px;
+    height: 23px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    color: black;
+}
+
+/* Ellipse */
+.ellipse1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 455px;
+    height: 455px;
+    left: 512px;
+    top: -156px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.ellipse2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 813px;
+    height: 813px;
+    left: 333px;
+    top: -335px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.ellipse3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1167px;
+    height: 1167px;
+    left: 156px;
+    top: -512px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.ellipse4 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1515px;
+    height: 1515px;
+    left: -18px;
+    top: -686px;
+    border-radius: 50%;
+    border: 1px solid white;
 }
 
 /*Body Topbar*/
+
 
 .body_topbar {
     display: flex;
@@ -51,17 +189,74 @@ html {
 /* Footer */
 .signup_col {
     display: flex;
+    background: yellow;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .footer {
-    background: #8e9fb2;
+    background: #3C434B;
     
+
 }
 
 .footer_col {
     display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-top: 20em;
+    padding-left: 23.3em;
+    padding-right: 28.6em;
+    padding-bottom: 9.7em;
+    
+}
+
+.footer_col h4 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 110%;
+    letter-spacing: -0.05em;
+    color: white;
+
+    padding-bottom: 2em;
+}
+
+.footer_col1 a img {
+    padding-top: 1.5em;
+    padding-bottom: 4.5em;
+}
+
+.footer_social {
+    display: flex;
+    gap: 3em;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
 }
 
 .footer_bottom {
     background: #DEF1FE;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #3C434B;
+
+    min-height: 10vh;
 }
+
+.footer_bottom p {
+    padding-top: 1.8em;
+}
+
